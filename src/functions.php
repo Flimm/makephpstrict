@@ -1,10 +1,10 @@
 <?php
 
-function intZ( $arg ) {
-    if ( is_int( $arg ) ) {
+function intZ($arg)
+{
+    if (is_int($arg)) {
         return $arg;
     } else {
-        throw new TypeError( "Expected int" );
+        throw new TypeError("Expected int");
     }
 }
-

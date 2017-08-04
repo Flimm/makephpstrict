@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ruleset name="PHP_CodeSniffer">
+  <description>The coding standard for makephpstrict</description>
+
+  <file>.</file>
+
+  <exclude-pattern>*/vendor/*</exclude-pattern>
+
+  <arg name="extensions" value="php,inc,lib"/>
+
+  <rule ref="PSR2" />
+
+
+</ruleset>
+
